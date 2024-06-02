@@ -1,0 +1,23 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "kmp",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/kmp",
+            "args": [],
+            "stopAtEntry": false,                            //true:在目标程序的入口点处停止；false:直接运行直到遇到断点
+            "cwd": "${workspaceFolder}",                    //cd 到工程的顶层目录，一般是指，所要调试的程序所在目录。
+            "environment": [],
+            "externalConsole": false,                       //true:启动控制台；false:在vscode的集成的控制台显示
+            "MIMode": "gdb",                                //调试方式，指定调试器是gdb，又或者lldb等等。
+            "miDebuggerPath": "/usr/bin/gdb",               //设置调试器路径
+            //"miDebuggerServerAddress": "localhost:1234",    //用于远程调试连接的调试器服务器（设备）
+
+        }
+    ]
+}
